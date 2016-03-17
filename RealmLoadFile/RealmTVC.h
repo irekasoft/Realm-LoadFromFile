@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RealmTVC.h
 //  RealmLoadFile
 //
 //  Created by Hijazi on 17/3/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RealmTVC : UITableViewController
 
 @end
-
