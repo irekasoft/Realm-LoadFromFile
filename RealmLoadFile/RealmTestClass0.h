@@ -9,7 +9,11 @@
 #import <Realm/Realm.h>
 
 @interface RealmTestClass0 : RLMObject
-<# Add properties here to define the model #>
+
+@property NSString *stringValue;
+@property NSInteger integerValue;
+@property NSData *dataValue;
+
 @end
 
 // This protocol enables typed collections. i.e.:

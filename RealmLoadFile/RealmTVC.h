@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Realm/Realm.h>
+#import "RealmTestClass0.h"
+#import "DetailVC.h"
 
-@interface RealmTVC : UITableViewController
+@interface RealmTVC : UITableViewController {
+  
+  RLMResults<RealmTestClass0 *> *result;
+  
+}
 
 @end
